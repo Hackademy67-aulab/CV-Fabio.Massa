@@ -1,0 +1,236 @@
+/* font */
+*{
+    font-family: 'Antonio', sans-serif;
+}
+
+/* dimensioni generali */
+
+.coleft_rowtop{
+    position: relative;
+    top: 12vh;
+    left:2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(-90deg);
+}
+
+
+.address{
+    height: 5vh;
+    position: relative;
+    left: 4vh;
+    bottom: 8vh;
+}
+
+h1{
+    color:#a9a9a9;
+    font-size: 5vh;
+    text-transform: uppercase;
+    position: relative;
+    right: 0.6vh;
+}
+
+
+h2{
+    color:#a9a9a9;
+    font-size: 2vh;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 1.5vh;
+}
+
+p{
+    font-weight: 250;
+    color: #a9a9a9;
+    font-size: 1.3vh;
+    text-align: justify;
+}
+
+
+.nome{
+    position: relative;
+    top: 2vh;
+    left: 0.4vh;
+}
+
+.cognome{
+    font-size: 10vh;
+}
+
+h3{
+    margin-bottom: 2vh;
+    padding-bottom: 0.5vh;
+    font-size: 2vh;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(31, 31, 31);
+    color: rgb(31, 31, 31);
+}
+
+h4{
+    font-size: 1.7vh;
+    font-weight: 300;
+    color: #171717;
+}
+
+h5{
+    font-size: 1.5vh;
+    font-weight: 250;
+    color: rgb(40, 40, 40);
+}
+
+i{
+    margin-right: 1vw;
+}
+
+a{
+    text-decoration: none;
+    color: #a9a9a9;
+    font-size: 1.3vh;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.data{
+    color: #515151;
+}
+
+
+.description{
+    margin-top: 2vh;
+    padding-right: 5vh;
+}
+
+
+/* background riga sopra */
+.rigasopra{
+    background:rgb(31, 31, 31);
+}
+
+
+.colright_rowtop{
+    padding-left: 1.6vw;
+}
+
+/* dimensione dell'immagine di profilo riga sopra colonna destra */
+.fotoprofilo{
+    height: 45vh;
+    margin-top: 1vh;
+}
+
+/* dimensioni della riga di sotto */
+.rowbottom{
+    height: 81vh;
+}
+
+/* spazio top riga centrale */
+    .colcent_rowbottom{
+        padding-top: 13vh;
+    }
+
+/* colonna destra riga sotto */
+
+.colright_rowbottom{
+    display:flex;
+    flex-direction: column;
+    padding-top: 13vh;
+}
+
+
+
+/* responsive per smartphone */
+
+@media screen and (max-width: 600px) {
+
+    .fotoprofilo{
+        height: 30vh;
+    }
+
+
+    .colright_rowtop{
+        padding-left: 2vh;
+    }
+
+    .rowbottom{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    section{
+        padding-bottom: 3vh !important;
+    }
+
+
+    .skills{
+        padding-top: 0 !important
+    }
+
+
+    hr{
+        padding-top: 0.3vh;
+        padding-bottom: 0.3vh;
+        margin: 0;
+    }
+
+
+    .rowbottom_coleft{
+        padding-top: 4vh!important
+    }
+
+
+    .colcent_rowbottom{
+        padding-top: 2.1vh!important
+    }
+
+    .colcent_rowbottom h3{
+        margin-bottom: 2vh!important
+    }
+
+    .colright_rowbottom{
+        padding-top: 4.3vh
+    }
+
+    .colright_rowbottom h3{
+        margin-bottom: 2vh!important;
+    }
+
+    h1{
+        color:#a9a9a9;
+        font-size: 5vh;
+        text-transform: uppercase;
+        position: relative;
+        right: 0.6vh;
+    }
+
+
+    h2{
+        color:#a9a9a9;
+        font-size: 2vh;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 1.5vh;
+    }
+
+    .nome{
+        position: relative;
+        top: 2vh;
+        left: 0.4vh;
+    }
+
+    .cognome{
+        font-size: 10vh;
+    }
+
+    .address{
+        position: relative;
+        bottom: 9vh;
+        left: 0vh;
+
+    }
+
+
+
+}
